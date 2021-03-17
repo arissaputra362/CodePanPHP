@@ -32,8 +32,8 @@
 
     <!-- Costum CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>

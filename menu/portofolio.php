@@ -32,8 +32,8 @@
 
     <!-- Costum CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/portofolio.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -1016,49 +1016,6 @@
 
     <!-- Costum Main.js -->
     <script type="text/javascript" src="../js/main.js"></script>
-
-    <!-- <script>
-    topNavBar();
-    $(function() {
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-        // window.addEventListener("load", AOS.refresh);
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-    });
-
-    function onElementHeightChange(elm, callback) {
-        var lastHeight = elm.clientHeight
-        var newHeight;
-
-        (function run() {
-            newHeight = elm.clientHeight;
-            if (lastHeight !== newHeight) callback();
-            lastHeight = newHeight;
-
-            if (elm.onElementHeightChangeTimer) {
-                clearTimeout(elm.onElementHeightChangeTimer);
-            }
-
-            elm.onElementHeightChangeTimer = setTimeout(run, 200);
-        })();
-    }
-
-    function refreshAos() {
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-    }
-    </script> -->
 </body>
 
 </html>

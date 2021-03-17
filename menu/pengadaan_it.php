@@ -32,8 +32,8 @@
 
     <!-- Costum CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/dropdown_item.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -971,6 +971,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
@@ -994,50 +995,6 @@
 
     <!-- Costum Main.js -->
     <script type="text/javascript" src="../js/main.js"></script>
-
-    <!-- <script>
-    topNavBar();
-    scrollCalculate();
-    $(function() {
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-        // window.addEventListener("load", AOS.refresh);
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-    });
-
-    function onElementHeightChange(elm, callback) {
-        var lastHeight = elm.clientHeight
-        var newHeight;
-
-        (function run() {
-            newHeight = elm.clientHeight;
-            if (lastHeight !== newHeight) callback();
-            lastHeight = newHeight;
-
-            if (elm.onElementHeightChangeTimer) {
-                clearTimeout(elm.onElementHeightChangeTimer);
-            }
-
-            elm.onElementHeightChangeTimer = setTimeout(run, 200);
-        })();
-    }
-
-    function refreshAos() {
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-    }
-    </script> -->
 </body>
 
 </html>

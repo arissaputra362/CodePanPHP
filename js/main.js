@@ -160,8 +160,8 @@ function calculate() {
   }
 }
 
-// // JS Aturan Layanan(Mobile)
-// $(".accordion_header").click(function () {
-//   $(".accordion_header").removeClass("active");
-//   $(this).addClass("active");
-// });
+// JS Aturan Layanan(Mobile)
+$(".accordion_header").click(function () {
+  $(".accordion_header").removeClass("active");
+  $(this).addClass("active");
+});

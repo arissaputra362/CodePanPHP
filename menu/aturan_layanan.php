@@ -24,6 +24,12 @@
     <link rel="stylesheet"
         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
+    <!-- W3-School-Animation -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Animated Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <!-- Hover Effect CSS -->
     <link rel="stylesheet" href="../css/hover-min.css">
 
@@ -32,8 +38,8 @@
 
     <!-- Costum CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/aturan_layanan.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -989,50 +995,6 @@
 
     <!-- Costum Main.js -->
     <script type="text/javascript" src="../js/main.js"></script>
-
-    <!-- <script>
-    topNavBar();
-    scrollCalculate();
-    $(function() {
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-        // window.addEventListener("load", AOS.refresh);
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-    });
-
-    function onElementHeightChange(elm, callback) {
-        var lastHeight = elm.clientHeight
-        var newHeight;
-
-        (function run() {
-            newHeight = elm.clientHeight;
-            if (lastHeight !== newHeight) callback();
-            lastHeight = newHeight;
-
-            if (elm.onElementHeightChangeTimer) {
-                clearTimeout(elm.onElementHeightChangeTimer);
-            }
-
-            elm.onElementHeightChangeTimer = setTimeout(run, 200);
-        })();
-    }
-
-    function refreshAos() {
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-    }
-    </script> -->
 </body>
 
 </html>

@@ -41,8 +41,8 @@
 
     <!-- Costum CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/karir.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -498,18 +498,6 @@
 
     <!-- Costum Main.js -->
     <script type="text/javascript" src="../js/main.js"></script>
-
-    <!-- <script>
-    topNavBar();
-    $(function() {
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-bottom',
-            once: false,
-        });
-        window.addEventListener("load", AOS.refresh);
-    });
-    </script> -->
 </body>
 
 </html>

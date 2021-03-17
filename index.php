@@ -41,7 +41,6 @@
     <!-- Costum CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="stylesheet" href="./css/tentang_kami.css">
 </head>
 
 <body>
@@ -1195,54 +1194,6 @@
 
     <!-- Costum Main.js -->
     <script type="text/javascript" src="./js/main.js"></script>
-
-    <!-- <script>
-    topNavBar();
-    $(function() {
-        AOS.init({
-            duration: 800,
-            anchorPlacement: 'top-bottom',
-            once: false,
-        });
-        window.addEventListener("load", AOS.refresh);
-    });
-
-    $(document).on('click', '#setuju', function() {
-        $('.btn-submit').attr({
-            disabled: !$(this).is(':checked')
-        })
-    });
-    </script>
-
-    <script>
-    $(document).ready(function() {
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            margin: 13,
-            dots: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true,
-            navigation: false,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false
-                },
-                600: {
-                    items: 2,
-                    nav: false
-                },
-                1000: {
-                    loop: false,
-                    items: 3,
-                    navigation: false
-                }
-            }
-        });
-    });
-    </script> -->
 </body>
 
 </html>

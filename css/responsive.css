@@ -1694,16 +1694,22 @@
   .view-desktop-aturanLayanan {
     display: none;
   }
+
   .view-mobile-aturanLayanan {
     display: block;
   }
   #isi-aturanLayanan {
-    height: 900px;
-    padding-top: 30px;
+    height: 100%;
+    padding: 30px 0;
   }
+
+  #isi-aturanLayanan .wrapper {
+    margin: 30px 0;
+  }
+
   #isi-aturanLayanan .tombol {
     height: 48px;
-    width: 309px;
+    width: 100% !important;
     border-radius: 7px;
     margin: auto;
   }
