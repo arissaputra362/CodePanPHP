@@ -260,10 +260,10 @@
 
     <!-- Jumbotron Heading -->
     <div id="mt" class="centered jumbotron jumbotron-fluid"
-        style="background-image: url('/img/Jumbotron\ Pengadaan\ IT.png');">
+        style="background-image: url('../img/pengadaan-it/Jumbotron\ Pengadaan\ IT.png');">
         <div class="container">
             <h1 class="display-4">PENGADAAN IT</h1>
-            <p class="lead">
+            <p class="lead text-center">
                 Untuk mewujudkan sistem yang handal, maka Anda memerlukan komponen Infrastruktur IT yang
                 berkualitas.
             </p>
@@ -288,14 +288,14 @@
 
                 <div class="col-md-7" id="bullets" data-aos="fade-left">
                     <ul>
-                        <li><img src="/img/Pointer.png" alt=""></li>
+                        <li><img src="../img/sistem-informasi/Pointer.png" alt=""></li>
                         <li class="bullets">
                             <h4>Lebih Handal</h4>
                             <p>Dengan pengadaan IT, infrastruktur pendukung IT di perusahaan menjadi lebih handal.</p>
                         </li>
                     </ul>
                     <ul>
-                        <li><img src="/img/Pointer.png" alt=""></li>
+                        <li><img src="../img/sistem-informasi/Pointer.png" alt=""></li>
                         <li class="bullets">
                             <h4>Lebih Efisien</h4>
                             <p>Proses bisnis Anda menjadi lebih efisien karena infrastruktur IT yang bagus akan membuat
@@ -303,7 +303,7 @@
                         </li>
                     </ul>
                     <ul>
-                        <li><img src="/img/Pointer.png" alt=""></li>
+                        <li><img src="../img/sistem-informasi/Pointer.png" alt=""></li>
                         <li class="bullets">
                             <h4>Pendukung Kinerja</h4>
                             <p>Infrastruktur IT yang bagus menjadi pendukung kinerja aplikasi IT pada perusahaan Anda.
@@ -412,7 +412,7 @@
             <div class="row" style="display: flex; justify-content: center;">
                 <div class="col-sm-6" data-aos="zoom-out">
                     <figure class="figure">
-                        <img src="/img/card2.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <img src="../img/sistem-informasi/card2.jpg" class="figure-img img-fluid rounded" alt="...">
                         <figcaption class="figure-caption">
                             <h1>1. Kebijakan</h1>
                             <p>Sudah diputuskan mengenai perencanaan pengadaan yang akan dilakukan.</p>
@@ -421,7 +421,7 @@
                 </div>
                 <div class="col-sm-6" data-aos="zoom-out" data-aos-delay="200">
                     <figure class="figure">
-                        <img src="/img/card11.png" class="figure-img img-fluid rounded" alt="...">
+                        <img src="../img/pengadaan-it/card11.png" class="figure-img img-fluid rounded" alt="...">
                         <figcaption class="figure-caption">
                             <h1>2. Tenaga Ahli</h1>
                             <p>Memiliki tim tenaga ahli internal yang berfungsi sebagai perawat sistem yang akan
@@ -452,7 +452,7 @@
                 <div class="col-md-4">
                     <div class="card card-portofolio">
                         <div class="card-img">
-                            <img src="/img/card4.jpg" class="card-img-top hvr-grow" alt="...">
+                            <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
                         <div class="card-body">
                             <small class="card-info">Pengadaan IT</small>
@@ -469,7 +469,7 @@
                 <div class="col-md-4">
                     <div class="card card-portofolio">
                         <div class="card-img">
-                            <img src="/img/card4.jpg" class="card-img-top hvr-grow" alt="...">
+                            <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
                         <div class="card-body">
                             <small class="card-info">Pengadaan IT</small>
@@ -486,7 +486,7 @@
                 <div class="col-md-4">
                     <div class="card card-portofolio">
                         <div class="card-img">
-                            <img src="/img/card4.jpg" class="card-img-top hvr-grow" alt="...">
+                            <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
                         <div class="card-body">
                             <small class="card-info">Pengadaan IT</small>
@@ -523,7 +523,7 @@
             <div class="row" data-aos="zoom-out">
                 <div class="col-md-4 col-produk">
                     <div class="card card-produk">
-                        <img src="/img/Produk.png" class="card-img-top" alt="...">
+                        <img src="../img/pengadaan-it/Produk.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ASCREEN INTERACTIVE FLAT PANEL DISPLAY </h5>
                             <p class="card-text">AScreen Flat Panel Display memiliki fungsi beragam untuk seluruh
@@ -535,7 +535,7 @@
                 </div>
                 <div class="col-md-4 col-produk">
                     <div class="card card-produk">
-                        <img src="/img/Produk.png" class="card-img-top" alt="...">
+                        <img src="../img/pengadaan-it/Produk.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ASCREEN INTERACTIVE FLAT PANEL DISPLAY </h5>
                             <p class="card-text">AScreen Flat Panel Display memiliki fungsi beragam untuk seluruh
@@ -547,7 +547,7 @@
                 </div>
                 <div class="col-md-4 col-produk">
                     <div class="card card-produk">
-                        <img src="/img/Produk.png" class="card-img-top" alt="...">
+                        <img src="../img/pengadaan-it/Produk.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ASCREEN INTERACTIVE FLAT PANEL DISPLAY </h5>
                             <p class="card-text">AScreen Flat Panel Display memiliki fungsi beragam untuk seluruh
@@ -561,7 +561,7 @@
             <div class="row" data-aos="zoom-out">
                 <div class="col-md-4 col-produk">
                     <div class="card card-produk">
-                        <img src="/img/Produk.png" class="card-img-top" alt="...">
+                        <img src="../img/pengadaan-it/Produk.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ASCREEN INTERACTIVE FLAT PANEL DISPLAY </h5>
                             <p class="card-text">AScreen Flat Panel Display memiliki fungsi beragam untuk seluruh
@@ -573,7 +573,7 @@
                 </div>
                 <div class="col-md-4 col-produk">
                     <div class="card card-produk">
-                        <img src="/img/Produk.png" class="card-img-top" alt="...">
+                        <img src="../img/pengadaan-it/Produk.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ASCREEN INTERACTIVE FLAT PANEL DISPLAY </h5>
                             <p class="card-text">AScreen Flat Panel Display memiliki fungsi beragam untuk seluruh
@@ -585,7 +585,7 @@
                 </div>
                 <div class="col-md-4 col-produk">
                     <div class="card card-produk">
-                        <img src="/img/Produk.png" class="card-img-top" alt="...">
+                        <img src="../img/pengadaan-it/Produk.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ASCREEN INTERACTIVE FLAT PANEL DISPLAY </h5>
                             <p class="card-text">AScreen Flat Panel Display memiliki fungsi beragam untuk seluruh
@@ -607,7 +607,7 @@
                     <h5 class="tag-kecil">Mitra Kerja</h5>
                     <h1 class="tag-besar">MITRA KERJA KAMI</h1>
                     <p class="capt">Kami bermitra dengan berbagai macam instansi dan perusahaan</p>
-                    <img src="/img/Arindra.png" alt="" data-aos="fade-down">
+                    <img src="../img/sistem-informasi/Arindra.png" alt="" data-aos="fade-down">
                 </div>
             </div>
             <!--Akhir Row1-->
@@ -616,7 +616,7 @@
                     <div class="row row-putih-testi" data-aos="fade-right">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
-                                <img src="/img/Reza Arindra.png" alt="">
+                                <img src="../img/sistem-informasi/Reza Arindra.png" alt="">
                             </div>
                             <div class="info">
                                 <h2>Reza Arindra Fadillah</h2>
@@ -635,7 +635,7 @@
                     <div class="row row-putih-testi" data-aos="fade-right" data-aos-delay="200">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
-                                <img src="/img/Andrea.png" alt="">
+                                <img src="../img/sistem-informasi/Andrea.png" alt="">
                             </div>
                             <div class="info">
                                 <h2>Andrea</h2>

@@ -535,7 +535,7 @@
                     <h5 class="tag-kecil">Mitra Kerja</h5>
                     <h1 class="tag-besar">MITRA KERJA KAMI</h1>
                     <p class="capt">Kami bermitra dengan berbagai macam instansi dan perusahaan</p>
-                    <img src="../img/sistem-informasi/Dinas.png" alt="" data-aos="fade-down">
+                    <img src="../img/sistem-informasi/Arindra.png" alt="" data-aos="fade-down">
                 </div>
             </div>
             <!--Akhir Row1-->

@@ -259,10 +259,12 @@
     <!-- End Fixed Button WA -->
 
     <!-- Jumbotron Heading -->
-    <div id="mt" class="centered jumbotron jumbotron-fluid" style="background-image: url('/img/Jumbotron\ EGOV.png');">
+    <div id="mt" class="centered jumbotron jumbotron-fluid"
+        style="background-image: url('../img/aplikasi-egov/Jumbotron\ EGOV.png');">
         <div class="container">
             <h1 class="display-4">Aplikasi E-GOV</h1>
-            <p class="lead">Melalui aplikasi pemerintah E-Gov kami senantiasa berkontribusi dalam teknologi IT untuk
+            <p class="lead text-center">Melalui aplikasi pemerintah E-Gov kami senantiasa berkontribusi dalam teknologi
+                IT untuk
                 kemajuan negeri
             </p>
             <a href="#" class="btn tombol hvr-bounce-to-top">Pesan Sekarang</a>
@@ -287,7 +289,7 @@
 
                 <div class="col-md-7" id="bullets" data-aos="fade-left">
                     <ul>
-                        <li><img src="/img/Pointer.png" alt=""></li>
+                        <li><img src="../img/sistem-informasi/Pointer.png" alt=""></li>
                         <li class="bullets">
                             <h4>Meningkatkan Transparansi</h4>
                             <p>Memudahkan penyampaian informasi atau laporan kepada masyarakat sehingga pemerintah lebih
@@ -295,21 +297,21 @@
                         </li>
                     </ul>
                     <ul>
-                        <li><img src="/img/Pointer.png" alt=""></li>
+                        <li><img src="../img/sistem-informasi/Pointer.png" alt=""></li>
                         <li class="bullets">
                             <h4>Lebih Mudah</h4>
                             <p>Aplikasi E-Gov akan mempermudah pengelolaan data pemerintahan.</p>
                         </li>
                     </ul>
                     <ul>
-                        <li><img src="/img/Pointer.png" alt=""></li>
+                        <li><img src="../img/sistem-informasi/Pointer.png" alt=""></li>
                         <li class="bullets">
                             <h4>Data Aman</h4>
                             <p>Dengan aplikasi e-gov, pengelolaan data aman dan mudah.</p>
                         </li>
                     </ul>
                     <ul>
-                        <li><img src="/img/Pointer.png" alt=""></li>
+                        <li><img src="../img/sistem-informasi/Pointer.png" alt=""></li>
                         <li class="bullets">
                             <h4>Lebih Efisien</h4>
                             <p>Dengan aplikasi e-gov, maka terciptanya peningkatan efisiensi beban operasional.</p>
@@ -417,7 +419,7 @@
             <div class="row">
                 <div class="col-lg-4" data-aos="zoom-out">
                     <figure class="figure">
-                        <img src="/img/card1.png" class="figure-img img-fluid rounded" alt="...">
+                        <img src="../img/sistem-informasi/card1.png" class="figure-img img-fluid rounded" alt="...">
                         <figcaption class="figure-caption">
                             <h1>1. Masterplan</h1>
                             <p>Memiliki masterplan atau konsep pengembangan teknologi akan menjadi nilai plus dalam
@@ -427,7 +429,7 @@
                 </div>
                 <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="200">
                     <figure class="figure">
-                        <img src="/img/card2.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <img src="../img/sistem-informasi/card2.jpg" class="figure-img img-fluid rounded" alt="...">
                         <figcaption class="figure-caption">
                             <h1>2. Kebijakan</h1>
                             <p>Pemangku kepentingan sudah mengeluarkan keputusan terkait rencana pengembangan sistem
@@ -437,7 +439,7 @@
                 </div>
                 <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="300">
                     <figure class="figure">
-                        <img src="/img/card3.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <img src="../img/sistem-informasi/card3.jpg" class="figure-img img-fluid rounded" alt="...">
                         <figcaption class="figure-caption">
                             <h1>3. Bisnis Proses</h1>
                             <p>Aplikasi E-Gov yang handal dan terbaik, membutuhkan kerja sama dari semua pihak. Anda
@@ -469,7 +471,7 @@
                 <div class="col-md-4">
                     <div class="card card-portofolio">
                         <div class="card-img">
-                            <img src="/img/card4.jpg" class="card-img-top hvr-grow" alt="...">
+                            <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
                         <div class="card-body">
                             <small class="card-info">Aplikasi E-Gov</small>
@@ -486,7 +488,7 @@
                 <div class="col-md-4">
                     <div class="card card-portofolio">
                         <div class="card-img">
-                            <img src="/img/card4.jpg" class="card-img-top hvr-grow" alt="...">
+                            <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
                         <div class="card-body">
                             <small class="card-info">Aplikasi E-Gov</small>
@@ -503,7 +505,7 @@
                 <div class="col-md-4">
                     <div class="card card-portofolio">
                         <div class="card-img">
-                            <img src="/img/card4.jpg" class="card-img-top hvr-grow" alt="...">
+                            <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
                         <div class="card-body">
                             <small class="card-info">Aplikasi E-Gov</small>
@@ -533,7 +535,7 @@
                     <h5 class="tag-kecil">Mitra Kerja</h5>
                     <h1 class="tag-besar">MITRA KERJA KAMI</h1>
                     <p class="capt">Kami bermitra dengan berbagai macam instansi dan perusahaan</p>
-                    <img src="/img/Arindra.png" alt="" data-aos="fade-down">
+                    <img src="../img/sistem-informasi/Dinas.png" alt="" data-aos="fade-down">
                 </div>
             </div>
             <!--Akhir Row1-->
@@ -542,7 +544,7 @@
                     <div class="row row-putih-testi" data-aos="fade-right">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
-                                <img src="/img/Reza Arindra.png" alt="">
+                                <img src="../img/sistem-informasi/Reza Arindra.png" alt="">
                             </div>
                             <div class="info">
                                 <h2>Reza Arindra Fadillah</h2>
@@ -561,7 +563,7 @@
                     <div class="row row-putih-testi" data-aos="fade-right" data-aos-delay="200">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
-                                <img src="/img/Andrea.png" alt="">
+                                <img src="../img/sistem-informasi/Andrea.png" alt="">
                             </div>
                             <div class="info">
                                 <h2>Andrea</h2>
