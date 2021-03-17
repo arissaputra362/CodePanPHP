@@ -326,8 +326,9 @@
                     <div class="card">
                         <!-- <img src="/img/Path.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_nl9bgfle.json"
-                                background="transparent" speed="1" loop autoplay style="transform: scale(0.8);">
+                            <lottie-player class="graf"
+                                src="https://assets6.lottiefiles.com/packages/lf20_nl9bgfle.json"
+                                background="transparent" speed="1" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">
@@ -346,8 +347,9 @@
                     <div class="card">
                         <!-- <img src="/img/smile.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_qc9sajgo.json"
-                                background="transparent" speed="1" loop autoplay style="transform: scale(0.5);">
+                            <lottie-player class="smile"
+                                src="https://assets1.lottiefiles.com/packages/lf20_qc9sajgo.json"
+                                background="transparent" speed="1" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">
@@ -366,8 +368,9 @@
                     <div class="card">
                         <!-- <img src="/img/Shape.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_tlzxty4j.json"
-                                background="transparent" speed="1" loop autoplay style="transform: scale(1.3);">
+                            <lottie-player class="phone"
+                                src="https://assets7.lottiefiles.com/packages/lf20_tlzxty4j.json"
+                                background="transparent" speed="1" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">
@@ -386,8 +389,9 @@
                     <div class="card">
                         <!-- <img src="/img/user.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_2wrjlrbz.json"
-                                background="transparent" speed="1" loop autoplay style="transform: scale(0.7);">
+                            <lottie-player class="partner"
+                                src="https://assets4.lottiefiles.com/packages/lf20_2wrjlrbz.json"
+                                background="transparent" speed="1" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">

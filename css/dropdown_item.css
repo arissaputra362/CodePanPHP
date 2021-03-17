@@ -92,6 +92,22 @@
   height: 150px;
 }
 
+#row-card .card .card-img-rowCard lottie-player.graf {
+  transform: scale(0.6);
+}
+
+#row-card .card .card-img-rowCard lottie-player.phone {
+  transform: scale(1);
+}
+
+#row-card .card .card-img-rowCard lottie-player.smile {
+  transform: scale(0.4);
+}
+
+#row-card .card .card-img-rowCard lottie-player.partner {
+  transform: scale(0.5);
+}
+
 #row-card .card-body h5 {
   text-align: center;
   font-weight: bold;
