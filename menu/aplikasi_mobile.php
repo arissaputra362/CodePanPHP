@@ -764,14 +764,20 @@
                                 <div class="col-lg-7 box-setuju">
                                     <input type="checkbox" id="setuju" name="setuju">
                                     <!-- Agreement Text -->
-                                    <label for="setuju">Saya menyetujui bahwa data yang saya isi adalah
-                                        benar</label>
+                                    <label for="setuju">Saya menyetujui bahwa data yang saya isi adalah benar</label>
                                 </div>
                                 <!-- End of Agreement -->
 
                                 <!-- Submit Button -->
-                                <div class="col-md-5 d-flex text-center">
-                                    <button type="submit" class="btn-submit" id="kirim_btn" disabled="disabled">Kirim
+                                <div class="col-lg-5 text-center">
+                                    <button type="submit" class="btn-primary btn-submit" id="kirim_btn"
+                                        disabled="disabled">Kirim
+                                    </button>
+
+                                    <button class="btn btn-primary d-none" type="button" disabled>
+                                        <span class="spinner-border spinner-border-sm" role="status"
+                                            aria-hidden="true"></span>
+                                        Loading...
                                     </button>
                                 </div>
                             </div>
