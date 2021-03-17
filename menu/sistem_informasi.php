@@ -373,7 +373,7 @@
                         <div class="card-body">
                             <div id="counter">
                                 <div class="pembungkus-counter d-flex justify-content-center align-items-center">
-                                    <p class="card-text counter-value" id="count3" data-count="365" style="">0</p>
+                                    <p class="card-text counter-value" id="count3" data-count="365">0</p>
                                     <span id="span3">24/7</span>
                                 </div>
                                 <h5 class="card-title">Kepuasan Pelanggan</h5>
