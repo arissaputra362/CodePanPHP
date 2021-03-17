@@ -161,7 +161,7 @@
 
                                     <!-- Aplikasi Mobile -->
                                     <div class="col-lg-2 dropdown-item">
-                                        <a href="./menu/sistem_informasi.php">
+                                        <a href="./menu/aplikasi_mobile.php">
                                             <i class="fas fa-mobile-alt"></i>
                                             <h5>Aplikasi Mobile</h5>
                                         </a>
