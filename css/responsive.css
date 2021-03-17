@@ -391,12 +391,6 @@
     padding: 12px;
   }
 
-  /* ---- Page Alasan ---- */
-  .items .text-img {
-    width: 40px;
-    margin-right: 20px;
-  }
-
   /*--- Page Solusi ---*/
   .solusi .container-mitra .keterangan {
     padding: 30px 15px;
@@ -888,10 +882,9 @@
     padding: 0;
   }
 
-  /* Page Alasan */
-  .items .text-img {
-    width: 35px;
-    margin-right: 20px;
+  /* --- Alasan --- */
+  .alasan-bermitra .items .text-img lottie-player.atas {
+    margin-top: -10px;
   }
 
   /*--- Solusi ---- */

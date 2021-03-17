@@ -1063,15 +1063,22 @@ a.wa-button:hover {
 /* --- CSS item pada 6 alasan dan form ---*/
 .alasan-bermitra .items .item {
   display: flex;
+  align-content: flex-start;
 }
 
 .alasan-bermitra .items .text-img {
-  display: flex;
-  justify-content: center;
-  align-content: flex-start;
-  margin-right: 20px;
-  width: 225px;
   overflow: hidden;
+}
+
+.alasan-bermitra .items .text-img lottie-player {
+  width: 100%;
+  align-self: flex-start;
+  height: auto;
+  margin: 0;
+}
+
+.alasan-bermitra .items .text-img lottie-player.atas {
+  margin-top: -20px;
 }
 
 .alasan-bermitra .items .text h3 {
@@ -1083,17 +1090,14 @@ a.wa-button:hover {
 .alasan-bermitra .items .text p {
   font-size: 0.87rem;
   font-weight: 500;
+  padding-right: 20px;
+  text-align: justify;
 }
 
 /* --- Kembali ke CSS 6 alasan ---*/
 .alasan-bermitra .items .item {
   margin-bottom: 45px;
   padding: 0 12px;
-}
-
-.alasan-bermitra .items .text-img lottie-player {
-  height: 50px;
-  width: 50px;
 }
 
 .alasan-bermitra .items .text h3 {

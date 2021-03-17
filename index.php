@@ -651,96 +651,104 @@
             </div>
 
             <ul class="items row">
-                <li class="col-md-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="200">
-                    <div class="text-img">
-                        <!-- <img src="./img/alasan/message.png" alt=""> -->
-                        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_dunmkucz.json"
-                            background="transparent" speed="1" loop autoplay></lottie-player>
-                    </div>
-                    <div class="text">
-                        <h3>Respon Cepat</h3>
-                        <p>Dengan dukungan nomor pusat keluhan via Whatsapp di nomer 081252200899 dan nomor telepon
-                            (031) 8437588 kami hadirkan layanan cepat atas setiap keluhan yang dialami mitra.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="200">
-                    <div class="text-img">
-                        <!-- <img src="./img/alasan/royality.png" alt=""> -->
-                        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_q32pr5gh.json"
-                            background="transparent" speed="1" loop autoplay>
-                        </lottie-player>
-                    </div>
-                    <div class="text">
-                        <h3>Berpengalaman</h3>
-                        <p>Dukungan tim handal yang lebih dari 5
-                            tahun telah sukses menyelesaikan
-                            berbagai studi kasus mitra, kami siap
-                            menyajikan berbagai layanan handal
-                            dan berkualitas untuk Anda.</p>
+                <li class="col-lg-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="row">
+                        <div class="col-3 text-img">
+                            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_dunmkucz.json"
+                                background="transparent" speed="1" loop autoplay></lottie-player>
+                        </div>
+                        <div class="col-9 text">
+                            <h3>Respon Cepat</h3>
+                            <p>Dengan dukungan nomor pusat keluhan via Whatsapp di nomer 081252200899 dan nomor telepon
+                                (031) 8437588 kami hadirkan layanan cepat atas setiap keluhan yang dialami mitra.</p>
+                        </div>
                     </div>
                 </li>
-                <li class="col-md-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="200">
-                    <div class="text-img">
-                        <!-- <img src="./img/alasan/people.png" alt=""> -->
-                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_U8MhmH.json"
-                            background="transparent" speed="1" style="width: 70px; height: 70px; margin-top: -10px;"
-                            loop autoplay>
-                        </lottie-player>
-                    </div>
-                    <div class="text">
-                        <h3>Tim Handal</h3>
-                        <p>Dengan didukung berbagai latar
-                            belakang keahlian dan
-                            pengalaman perusahaan dibidang
-                            teknologi, kami siap memenuhi
-                            target penyelesaian lebih cepat
-                            dan handal.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="300">
-                    <div class="text-img">
-                        <!-- <img src="./img/alasan/flag.png" alt=""> -->
-                        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_iq0zmgip.json"
-                            background="transparent" speed="1" loop autoplay></lottie-player>
-                    </div>
-                    <div class="text">
-                        <h3>Solusi Terbaik</h3>
-                        <p>Studi kasus dan latar belakang dari pengguna selalu menjadi materi
-                            perumusan solusi yang kami tawarkan
-                            guna menghasilkan layanan yang tepat
-                            sasaran</p>
+                <li class="col-lg-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="row">
+                        <div class="col-3 text-img">
+                            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_q32pr5gh.json"
+                                background="transparent" speed="1" loop autoplay>
+                            </lottie-player>
+                        </div>
+                        <div class="col-9 text">
+                            <h3>Berpengalaman</h3>
+                            <p>Dukungan tim handal yang lebih dari 5
+                                tahun telah sukses menyelesaikan
+                                berbagai studi kasus mitra, kami siap
+                                menyajikan berbagai layanan handal
+                                dan berkualitas untuk Anda.</p>
+                        </div>
                     </div>
                 </li>
-                <li class="col-md-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="300">
-                    <div class="text-img">
-                        <!-- <img src="./img/alasan/code.png" alt=""> -->
-                        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_lqbg5smd.json"
-                            background="transparent" speed="1" style="width: 95px; height: 95px; margin-top: -20px" loop
-                            autoplay>
-                        </lottie-player>
-                    </div>
-                    <div class="text">
-                        <h3>Serba Bisa</h3>
-                        <p>Dengan didukung tenaga ahli yang
-                            handal, tim kami mampu membangun
-                            sebuah layanan yang berkualitas dalam berbagai platform teknologi baik mobile, desktop, web,
-                            maupun hardware.</p>
+                <li class="col-lg-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="row">
+                        <div class="col-3 text-img">
+                            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_U8MhmH.json"
+                                background="transparent" style="transform: scale(1.3);" speed="1" loop autoplay>
+                            </lottie-player>
+                        </div>
+                        <div class="col-9 text">
+                            <h3>Tim Handal</h3>
+                            <p>Dengan didukung berbagai latar
+                                belakang keahlian dan
+                                pengalaman perusahaan dibidang
+                                teknologi, kami siap memenuhi
+                                target penyelesaian lebih cepat
+                                dan handal.</p>
+                        </div>
                     </div>
                 </li>
-                <li class="col-md-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="300">
-                    <div class="text-img">
-                        <!-- <img src="./img/alasan/lol.png" alt=""> -->
-                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_qdbb21wb.json"
-                            background="transparent" speed="1" loop autoplay>
-                        </lottie-player>
+                <li class="col-lg-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="300">
+                    <div class="row">
+                        <div class="col-3 text-img">
+                            <lottie-player class="atas"
+                                src="https://assets2.lottiefiles.com/packages/lf20_iq0zmgip.json"
+                                background="transparent" style="transform: scale(0.7);" speed="1" loop autoplay>
+                            </lottie-player>
+                        </div>
+                        <div class="col-9 text">
+                            <h3>Solusi Terbaik</h3>
+                            <p>Studi kasus dan latar belakang dari pengguna selalu menjadi materi
+                                perumusan solusi yang kami tawarkan
+                                guna menghasilkan layanan yang tepat
+                                sasaran</p>
+                        </div>
                     </div>
-                    <div class="text">
-                        <h3>100% Jaminan Puas</h3>
-                        <p>Kami memberikan jaminan bahwa
-                            solusi kami harus bekerja dan
-                            mencapai tujuan mitra dalam
-                            meningkatkan performa bisnis
-                            mereka melalui teknologi.</p>
+                </li>
+                <li class="col-lg-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="300">
+                    <div class="row">
+                        <div class="col-3 text-img">
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_lqbg5smd.json"
+                                background="transparent" style="transform: scale(1.7);" speed="1" loop autoplay>
+                            </lottie-player>
+                        </div>
+                        <div class="col-9 text">
+                            <h3>Serba Bisa</h3>
+                            <p>Dengan didukung tenaga ahli yang
+                                handal, tim kami mampu membangun
+                                sebuah layanan yang berkualitas dalam berbagai platform teknologi baik mobile, desktop,
+                                web,
+                                maupun hardware.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-sm-6 mx-0 item" data-aos="zoom-in-up" data-aos-delay="300">
+                    <div class="row">
+                        <div class="col-3 text-img">
+                            <lottie-player class="atas"
+                                src="https://assets5.lottiefiles.com/packages/lf20_qdbb21wb.json"
+                                background="transparent" style="transform: scale(0.9);" speed="1" loop autoplay>
+                            </lottie-player>
+                        </div>
+                        <div class="col-9 text">
+                            <h3>100% Jaminan Puas</h3>
+                            <p>Kami memberikan jaminan bahwa
+                                solusi kami harus bekerja dan
+                                mencapai tujuan mitra dalam
+                                meningkatkan performa bisnis
+                                mereka melalui teknologi.</p>
+                        </div>
                     </div>
                 </li>
             </ul>
