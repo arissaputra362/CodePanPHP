@@ -273,6 +273,7 @@
   position: relative;
   font-weight: bold;
   width: 100%;
+  overflow: hidden;
 }
 
 #portofolio .card-portofolio .hvr-bounce-to-top::before {

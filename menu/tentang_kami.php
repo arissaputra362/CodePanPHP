@@ -9,20 +9,15 @@
 
     <!-- Font CSS From Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link
-        rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
 
     <!-- Boostrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- Line Awesome CSS From https://icons8.com/line-awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet"
-        media="all">
-    <link rel="stylesheet"
-        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
     <!-- Header Effect CSS -->
     <link rel="stylesheet" href="../css/headerEffect/style.css">
@@ -65,8 +60,7 @@
                         <img src="../img/header/email-icon.png" alt="">
                         <div class="text">
                             <p class="judul">Email Kami</p>
-                            <a href="mailto:info@codepanstudio.com" target="_blank"
-                                class="isi">info@codepanstudio.com</a>
+                            <a href="mailto:info@codepanstudio.com" target="_blank" class="isi">info@codepanstudio.com</a>
                         </div>
                     </div>
                     <!-- End of Container Email -->
@@ -104,13 +98,10 @@
         <nav id="navbar" class="mt-4 mb-0 navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <!-- Navbar Logo Brand for Codepan Studio Logo when screen < 992px -->
-                <a class="navbar-brand display-logo-left" href="#"><img class="logo mr-auto"
-                        src="../img/navbar/logo-codepan.png" alt="" class=""></a>
+                <a class="navbar-brand display-logo-left" href="#"><img class="logo mr-auto" src="../img/navbar/logo-codepan.png" alt="" class=""></a>
 
                 <!-- Toggler Button using boostrap 4 and small costumize on animation when screen < 992px -->
-                <button id="toggleTop" class="navbar-toggler toggle-top" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button id="toggleTop" class="navbar-toggler toggle-top" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-inner"></span>
                 </button>
                 <!-- End of Toggler Button using boostrap 4 and small costumize on animation when screen < 992px -->
@@ -120,14 +111,12 @@
                     <ul class="navbar-nav mr-5">
                         <!-- Simple Menu Beranda -->
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.php" onclick="moveMenuNav(this)">BERANDA <span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="../index.php" onclick="moveMenuNav(this)">BERANDA <span class="sr-only">(current)</span></a>
                         </li>
 
                         <!-- Simple Menu Tentang Kami -->
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" onclick="moveMenuNav(this)">TENTANG KAMI <span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="#" onclick="moveMenuNav(this)">TENTANG KAMI <span class="sr-only">(current)</span></a>
                         </li>
 
                         <!-- Simple Menu Portofolio -->
@@ -139,8 +128,7 @@
                         <!-- Dropdown Menu Layanan IT -->
                         <li class="nav-item dropdown menu-area">
                             <!-- Dropdown Menu Button -->
-                            <a class="nav-link dropdown-toggle" href="#" onclick="moveMenuNav(this)" id="mega-one"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" onclick="moveMenuNav(this)" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 LAYANAN IT
                             </a>
 
@@ -220,8 +208,7 @@
                     </ul>
 
                     <!-- Navbar Logo for Large Screen > 992px  -->
-                    <a href="#" class="d-flex justify-content-center display-logo-center"><img class="logo mr-auto"
-                            src="../img/navbar/logo-codepan.png" alt="" class=""></a>
+                    <a href="#" class="d-flex justify-content-center display-logo-center"><img class="logo mr-auto" src="../img/navbar/logo-codepan.png" alt="" class=""></a>
 
                     <!-- Container Social Media Buttons -->
                     <ul class="d-flex justify-content-md-center ml-auto p-icon-sosmed">
@@ -263,8 +250,7 @@
     <!-- End Fixed Button WA -->
 
     <!-- Jumbotron Heading -->
-    <div id="mt" class="centered jumbotron jumbotron-fluid"
-        style="background-image: url('../img/tentang-kami/Jumbotron.png')">
+    <div id="mt" class="centered jumbotron jumbotron-fluid" style="background-image: url('../img/tentang-kami/Jumbotron.png')">
         <div class="container">
             <h1 class="display-4">TENTANG KAMI</h1>
             <p class="lead text-center">
@@ -308,9 +294,7 @@
                             <div class="card-body">
                                 <!-- <img src="/img/compass.png" alt="" /> -->
                                 <div class="pembungkus-img-tentang">
-                                    <lottie-player class="watch"
-                                        src="https://assets6.lottiefiles.com/packages/lf20_zixiihzc.json" speed="1"
-                                        style="width: 100%; height: auto; transform: scale(3.5);" loop autoplay>
+                                    <lottie-player class="watch" src="https://assets6.lottiefiles.com/packages/lf20_zixiihzc.json" speed="1" style="width: 100%; height: auto; transform: scale(3.5);" loop autoplay>
                                     </lottie-player>
                                 </div>
                                 <h5 class="card-title">MISI KAMI</h5>
@@ -326,8 +310,7 @@
                             <div class="card-body">
                                 <!-- <img src="/img/flag.png" alt="" /> -->
                                 <div class="pembungkus-img-tentang">
-                                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ecpurfi6.json"
-                                        speed="1" style="width: 100%; height: 100%" loop autoplay>
+                                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ecpurfi6.json" speed="1" style="width: 100%; height: 100%" loop autoplay>
                                     </lottie-player>
                                 </div>
                                 <h5 class="card-title">PENDEKATAN & BUDAYA KAMI</h5>
@@ -369,11 +352,9 @@
                     </div>
                     <!--Akhir container-->
 
-                    <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><img
-                            class="hvr-pulse" src="../img/tentang-kami/play-button.png" alt="" /></a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><img class="hvr-pulse" src="../img/tentang-kami/play-button.png" alt="" /></a>
 
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -384,10 +365,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="form-group">
-                                        <iframe width="100%" height="100%"
-                                            src="https://www.youtube.com/embed/pp4SSw_0uXA" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
+                                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pp4SSw_0uXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -464,8 +442,7 @@
     <!-- End of Page Blog -->
     <div class="svg-wave" style="background-color: transparent">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#2926A9" fill-opacity="1"
-                d="M0,192L34.3,176C68.6,160,137,128,206,138.7C274.3,149,343,203,411,192C480,181,549,107,617,80C685.7,53,754,75,823,106.7C891.4,139,960,181,1029,208C1097.1,235,1166,245,1234,240C1302.9,235,1371,213,1406,202.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+            <path fill="#2926A9" fill-opacity="1" d="M0,192L34.3,176C68.6,160,137,128,206,138.7C274.3,149,343,203,411,192C480,181,549,107,617,80C685.7,53,754,75,823,106.7C891.4,139,960,181,1029,208C1097.1,235,1166,245,1234,240C1302.9,235,1371,213,1406,202.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
             </path>
         </svg>
     </div>
@@ -544,10 +521,7 @@
             <!-- Contact -->
             <div class="contact" data-aos="fade-left">
                 <p>Alamat : Jl. Sidosermo VI No.7, Sidosermo, Kec. Wonocolo, Kota SBY, Jawa Timur 60285 </p>
-                <p>Telepon: <a href="tel:+620318437588" class="hvr-underline-from-left">(031) 8437588</a> | Email: <a
-                        href="mailto:info@codepanstudio.com" class="hvr-underline-from-left"
-                        target="_blank">info@codepanstudio.com</a> | GMAPS : <a href="https://bit.ly/GMAPSCodepanStudio"
-                        class="hvr-underline-from-left" target="_blank">https://bit.ly/GMAPSCodepanStudio</a> </p>
+                <p>Telepon: <a href="tel:+620318437588" class="hvr-underline-from-left">(031) 8437588</a> | Email: <a href="mailto:info@codepanstudio.com" class="hvr-underline-from-left" target="_blank">info@codepanstudio.com</a> | GMAPS : <a href="https://bit.ly/GMAPSCodepanStudio" class="hvr-underline-from-left" target="_blank">https://bit.ly/GMAPSCodepanStudio</a> </p>
             </div>
             <!-- End of Contact -->
 
@@ -559,14 +533,11 @@
     </footer>
 
     <!-- Boostrap Bundle CSS include JQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
 
     <!-- Header Effect .js -->
