@@ -829,7 +829,7 @@
                                 <!-- Alert -->
                                 <div class="alert alert-success alert-dismissible fade show col-md-12 d-none"
                                     role="alert">
-                                    <strong>Selamat!</strong> Data Anda telah sukses terkirim.
+                                    <strong>Selamat!</strong> Data Anda berhasil dikirim.
                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>

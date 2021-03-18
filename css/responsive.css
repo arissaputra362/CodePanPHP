@@ -35,7 +35,7 @@
   /* -- Gerald -- */
   /* Hadir dengan Solusi */
   #row-card .card {
-    height: 320px;
+    /* height: 320px; */
   }
   #row-card .card-body h5 {
     font-size: 15px;
@@ -53,16 +53,7 @@
 
   /* Portofolio */
   #portofolio .card-portofolio .tombol {
-    margin: 15px auto;
     font-size: 14px;
-    height: 30px;
-    padding-top: 3px;
-    width: 200px;
-  }
-
-  /* Mitra Kerja */
-  #mitraKerja .row-putih {
-    height: 450px;
   }
 
   /* Tentang5 */
@@ -109,6 +100,11 @@
   /* ==== Isi Portofolio CSS ==== */
   .container-isi-portofolio .content {
     padding-right: 100px !important;
+  }
+
+  .figure-img {
+    width: 100%;
+    min-height: 200px;
   }
 }
 
@@ -461,7 +457,7 @@
     width: 25px;
   }
 
-  .solusi .container-form button.btn-submit {
+  .solusi .container-form button.btn-primary {
     width: 100%;
     height: 40px;
     margin-top: 20px;
@@ -618,13 +614,6 @@
 
   /* -- Gerald -- */
 
-  /* Tentang1 */
-  #tentang1 .dwnld-btn {
-    width: 300px;
-    font-size: 15px;
-    padding-top: 13px;
-  }
-
   /* Tentang3 */
   #tentang3 h1 {
     font-size: 37px;
@@ -637,7 +626,7 @@
 
   /* Hadir dengan Solusi */
   #row-card .card {
-    height: 330px;
+    /* height: 330px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -672,26 +661,17 @@
 
   /* Portofolio */
   #portofolio .card-portofolio {
-    margin: 50px 0;
     box-shadow: 2px 2px 20px #a6a5a5;
     display: flex;
     align-content: center;
-    padding: 10px;
-  }
-  #portofolio .card-portofolio h5 {
-    font-size: 14px;
   }
 
-  #portofolio .card-portofolio p {
-    font-size: 12px;
+  #portofolio .card-body {
+    margin-top: 20px;
   }
 
   #portofolio .card-portofolio .tombol {
-    margin: 15px 3px 0 3px;
-    font-size: 14px;
-    height: 30px;
-    padding-top: 3px;
-    width: 150px;
+    /* font-size: 14px; */
   }
 
   /* Produk */
@@ -721,22 +701,19 @@
   #mitraKerja .row-biru img {
     margin: 60px 500px;
   }
-  #mitraKerja .row-putih {
-    height: 600px;
-  }
+
   #mitraKerja .row-putih .img-testi {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #mitraKerja .row-putih h2 {
-    margin-top: 60px;
-  }
   #mitraKerja .row-putih-testi {
     display: flex;
     flex-direction: column-reverse;
   }
+
   #mitraKerja .col-putih-testi {
+    margin-top: 20px !important;
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -747,12 +724,11 @@
 @media only screen and (max-width: 812px) {
   /* Hadir Dengan Solusi */
   #row-card .card {
-    height: 330px;
+    /* height: 330px; */
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
   }
   #row-card .card-body span {
     font-size: 30px;
@@ -977,10 +953,23 @@
 
   /* -- Gerald -- */
   /* Hadir Dengan Solusi */
+  #tentang1 .margin {
+    margin-top: 35px;
+  }
+  #tentang1 .dwnld-btn {
+    margin-top: 30px;
+  }
+
+  #tentang2 .batas-card {
+    margin-top: 30px;
+  }
+
+  #bullets {
+    margin-top: 40px;
+    margin-left: -40px;
+  }
+
   #row-card .card img {
-    width: 40px;
-    height: 40px;
-    margin: 20px auto;
   }
 
   #row-card .card-body h5 {
@@ -1003,13 +992,14 @@
     color: #a4a3c0;
   }
 
+  .row-putih .margin-testi {
+    margin-bottom: 40px;
+  }
+
   /* Portofolio */
   #portofolio .card-portofolio .tombol {
-    font-size: 10px;
     color: white;
     font-weight: bold;
-    width: auto;
-    height: auto;
   }
   /* -- End of Gerarld */
 }
@@ -1018,8 +1008,6 @@
   /* -- Tentang1 -- */
   #tentang1 .dwnld-btn {
     font-size: 12px;
-    width: 240px;
-    height: 40px;
   }
 
   /* -- Tentang2 -- */
@@ -1027,7 +1015,6 @@
     display: flex;
     justify-content: space-evenly;
     margin: 0;
-    padding: 15px;
   }
 
   /* -- Tentang3 -- */
@@ -1040,25 +1027,20 @@
   #tentang3 p {
     font-size: 20px;
   }
-  #tentang3 .modal .modal-content {
+  /* #tentang3 .modal .modal-content {
     height: 350px;
-  }
-  #tentang3 .modal .modal-content iframe {
+  } */
+  /* #tentang3 .modal .modal-content iframe {
     height: 250px;
   }
   #tentang3 .modal .modal-content {
     margin: -50px;
-  }
+  } */
 
   /* Hadir Dengan Solusi */
   #judulSI p .hvr-bounce-to-top::before {
     background-color: #2926a9;
     width: 50%;
-  }
-  #row-card .card {
-    height: 200px;
-    width: 70%;
-    margin: 30px auto;
   }
 
   #row-card .card-body span {
@@ -1075,23 +1057,15 @@
     margin: 0;
     padding: 0;
   }
-  #kunci-sukses .figure-img {
-    margin-top: 50px;
-  }
+
   #kunci-sukses .figure-caption h1 {
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
   }
   #kunci-sukses .figure-caption p {
-    font-size: 13px;
     text-align: center;
     color: #7f7f7f;
-  }
-  #row-card .card .card-img-rowCard lottie-player {
-    width: 60px;
-    height: 60px;
-    margin: 8px 0;
   }
 }
 
@@ -1124,17 +1098,6 @@
     margin-right: 0;
   }
   /* --- End of Adjust Header Buttons (Karir, Blog, Kontak) --- */
-
-  /*--- Navbar ---*/
-  /*   
-  nav {
-    overflow: scroll;
-    min-height: 100%;
-  } */
-  /* 
-  nav {
-    min-height: 10%;
-  } */
 
   /* -- Padding in navbar -- */
   .navbar {
@@ -1356,17 +1319,23 @@
   /* -- Gerald -- */
   /*--- Jumbotron ---*/
   .centered.jumbotron {
-    padding: 30px 20px;
+    padding: 40px 20px;
   }
 
   .centered.jumbotron p {
     text-align: center;
   }
 
+  #mitraKerja {
+    padding: 50px 10px;
+  }
+
+  #mitraKerja .row-putih {
+    padding: 40px 20px;
+  }
+
   /* Hadir Dengan Solusi */
   #row-card .card img {
-    width: 40px;
-    height: 40px;
     margin: 20px auto;
   }
 
@@ -1392,11 +1361,8 @@
 
   /* Portofolio */
   #portofolio .card-portofolio .tombol {
-    font-size: 10px;
     color: white;
     font-weight: bold;
-    width: auto;
-    height: auto;
   }
   /* -- End of Gerald -- */
 }
@@ -1442,6 +1408,7 @@
   }
 
   /* -- Adjust widt button link to 100% of container -- */
+  #tentang1 .dwnld-btn,
   .page-masalah .btn-primary {
     width: 100%;
   }
@@ -1490,8 +1457,10 @@
 
   /* -- Gerald -- */
   /* Jumbotron */
-  .centered.jumbotron {
-    height: 300px;
+  .centered.jumbotron a {
+    padding: 10px;
+    width: 60%;
+    font-size: 12px;
   }
   .centered.jumbotron .display-4 {
     margin-top: 20px;
@@ -1500,44 +1469,19 @@
   .centered.jumbotron center {
     font-size: 10px;
   }
-  .centered.jumbotron a {
-    margin: 50px auto;
-  }
-  .centered.jumbotron .tombol {
-    width: 150px;
-    height: 40px;
-    padding-top: 9px;
-    margin-top: 20px;
-    font-size: 15px;
-  }
 
   /* Tentang1 */
+  #tentang1 {
+    margin-top: 40px;
+  }
+
   #tentang1 h2 {
-    margin-top: -50px;
     text-align: left;
     font-size: 25px;
-  }
-  #tentang1 p {
-    margin-top: 30px;
-  }
-  #tentang1 .dwnld-btn {
-    display: block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #33bef0;
-    background-color: #33bef0;
-    height: 38px;
-    width: auto;
-    padding-top: 6px;
-    border-radius: 41.5px;
-    text-align: center;
-    font-size: 17px;
-    margin-top: 40px;
   }
 
   /* Tentang2 */
   #tentang2 .card {
-    margin: 50px 0;
     box-shadow: 2px 2px 20px rgba(100, 78, 78, 0.616);
     height: 300px;
     box-sizing: border-box;
@@ -1571,14 +1515,6 @@
     font-weight: 800;
     font-size: 10px;
   }
-  #tentang3 .modal .modal-content {
-    width: 600px;
-    margin: 0;
-  }
-  #tentang3 .modal .modal-body iframe {
-    width: 300px;
-    height: 215px;
-  }
 
   /* Tentang4 */
   .gagasan h1 {
@@ -1597,29 +1533,16 @@
     width: 75%;
   }
 
-  #bullets {
-    margin-top: 50px;
-    margin-left: -40px;
-  }
-  #row-card .card {
-    height: 200px;
-  }
-
-  #row-card .card .card-img-rowCard lottie-player {
-    width: 60px;
-    height: 60px;
-    margin: 8px 0;
-  }
-
   /* Kunci Sukses */
+  #kunci-sukses {
+    padding: 50px 10px;
+  }
+
   #kunci-sukses .tag-kecil {
     font-size: 10px;
   }
-  #kunci-sukses .tag-besar {
-    font-size: 20px;
-  }
+
   #kunci-sukses .capt {
-    font-size: 10px;
     margin-bottom: 40px;
   }
   #kunci-sukses .figure-caption h1 {
@@ -1627,7 +1550,6 @@
     font-size: 21px;
   }
   #kunci-sukses .figure-caption p {
-    font-size: 10px;
     margin-bottom: 40px;
   }
 
@@ -1635,32 +1557,15 @@
   #portofolio .tag-kecil {
     font-size: 10px;
   }
-  #portofolio .tag-besar {
-    font-size: 25px;
-  }
-  #portofolio .capt {
-    font-size: 10px;
-  }
+
   #portofolio .card-portofolio {
-    margin: 50px 0;
     box-shadow: 2px 2px 20px #a6a5a5;
     display: flex;
     align-content: center;
   }
 
-  #portofolio .card-portofolio h5 {
-    font-size: 13px;
-    font-weight: 600;
-    color: #2926a9;
-  }
   #portofolio .card-portofolio .tombol {
-    /* margin-left: 25px; */
-    /* margin-top: 10px; */
-    margin: 0 auto;
-    margin-top: 30px;
     font-size: 14px;
-    width: 250px;
-    height: 30px;
   }
 
   /* Produk */
@@ -1670,12 +1575,7 @@
   #produk .pembungkus-produk .tag-kecil {
     font-size: 12px;
   }
-  #produk .pembungkus-produk .tag-besar {
-    font-size: 25px;
-  }
-  #produk .pembungkus-produk .capt {
-    font-size: 10px;
-  }
+
   #produk .pembungkus-produk .card-produk {
     margin-bottom: 30px;
   }
@@ -1874,16 +1774,23 @@
     font-size: 30px;
   }
 
-  .jumbotron p,
-  .jumbotron a {
-    font-size: 15px;
-  }
-
   .jumbotron .tombol {
     font-size: 13px;
     width: 150px;
     height: 40px;
     padding-top: 9px;
+  }
+
+  .centered.jumbotron a {
+    width: 80%;
+  }
+
+  #tentang1 .dwnld-btn {
+    padding: 15px 10px;
+  }
+
+  #judulSI a {
+    width: 100%;
   }
 
   /* Kunci Sukses */
@@ -1894,11 +1801,17 @@
     margin-top: 10px;
   }
 
-  /* Portofolio */
-  #portofolio .card-portofolio .tombol {
-    margin-left: 20px;
+  #portofolio .card-portofolio h5 {
+    font-size: 1rem;
   }
 
+  #portofolio .card {
+    padding: 16px 13px 14px 13px;
+  }
+
+  #portofolio .card-portofolio p {
+    font-size: 0.8rem;
+  }
   /* Tentang 5 */
   #tentang5 .judul-tentang5 {
     margin-top: 100px;

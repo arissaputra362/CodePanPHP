@@ -36,6 +36,7 @@
 }
 
 #judulSI h1 {
+  margin-bottom: 20px;
   font-size: 36px;
   color: #2926a9;
   font-weight: 700;
@@ -44,18 +45,23 @@
 }
 
 #judulSI a {
+  display: inline-block;
   text-decoration: none;
   font-weight: 600;
   color: #2926a9;
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 10px 20px 10px 0;
+  margin-top: 20px;
+  transition: 0.3s;
 }
 
 #judulSI a:hover {
+  padding-left: 10px;
   text-decoration: none;
   color: white;
+}
+
+#judulISI ul {
+  padding: 0 !important;
 }
 
 #judulISI .fa-long-arrow-alt-right {
@@ -66,46 +72,50 @@
   color: white;
 }
 
-#judulSI p .hvr-bounce-to-top::before {
+#judulSI p .hvr-bounce-to-right::before {
   background-color: #2926a9;
-  width: 57%;
+  width: 100%;
+}
+
+.p-bottom a {
+  font-weight: 600;
+  color: #03d0b9;
+  text-decoration: none;
+}
+
+#row-card {
+  margin-bottom: 50px;
 }
 
 #row-card .card {
-  margin: 50px 0;
+  margin: 0 auto;
+  padding: 10px;
   box-shadow: 2px 2px 20px #a6a5a5;
   border-top: 16px solid #33bef0;
-  height: 300px;
 }
 
-/* #row-card .card img {
-      width: 62px;
-      height: 60px;
-      margin: 40px auto;
-  } */
 #row-card .card .card-img-rowCard {
-  margin: auto;
+  margin-bottom: 10px;
   overflow: hidden;
+  height: 100px;
 }
 #row-card .card .card-img-rowCard lottie-player {
-  width: 200px;
-  height: 150px;
 }
 
 #row-card .card .card-img-rowCard lottie-player.graf {
-  transform: scale(0.6);
+  transform: scale(1.1);
 }
 
 #row-card .card .card-img-rowCard lottie-player.phone {
-  transform: scale(1);
+  transform: scale(1.6);
 }
 
 #row-card .card .card-img-rowCard lottie-player.smile {
-  transform: scale(0.4);
+  transform: scale(0.85);
 }
 
 #row-card .card .card-img-rowCard lottie-player.partner {
-  transform: scale(0.5);
+  transform: scale(0.6);
 }
 
 #row-card .card-body h5 {
@@ -152,15 +162,9 @@
   margin: 10px 0;
 }
 
-.p-bottom a {
-  color: #2926a9;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .p-bottom .hvr-underline-from-left::before {
   height: 1px;
-  background-color: #2926a9;
+  background-color: #03d0b9;
 }
 
 /* Kunci Sukses */
@@ -187,7 +191,6 @@
 
 #kunci-sukses .figure-caption p {
   font-weight: 500;
-  font-size: 15px;
   text-align: center;
   color: #7f7f7f;
 }
@@ -210,7 +213,6 @@
 #portofolio .tag-besar {
   text-align: center;
   font-weight: 700;
-  font-size: 36px;
   color: #2926a9;
 }
 
@@ -218,14 +220,24 @@
   text-align: center;
   font-weight: 500;
   color: #7f7f7f;
+  margin-bottom: 30px;
+}
+
+#portofolio .porto-margin {
+  margin-bottom: 30px;
 }
 
 #portofolio .card-portofolio {
-  margin: 50px 0;
   box-shadow: 2px 2px 20px #a6a5a5;
   display: flex;
   align-content: center;
-  padding: 20px;
+  padding: 35px 25px 20px 25px;
+  position: relative;
+}
+
+#portofolio .card-body {
+  padding: 0;
+  margin-top: 40px;
 }
 
 #portofolio .card-portofolio .card-img {
@@ -235,33 +247,31 @@
 }
 
 #portofolio .card-portofolio small {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
   color: #33bef0;
 }
 
 #portofolio .card-portofolio h5 {
-  font-size: 16px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #2926a9;
 }
 
 #portofolio .card-portofolio p {
   font-weight: 500;
-  text-align: justify;
-  font-size: 14px;
+  font-size: 0.95rem;
   color: #4540ff;
+  margin-bottom: 40px;
 }
 
 #portofolio .card-portofolio .tombol {
-  margin: 30px 0 0 0;
-  margin-left: 10px;
-  padding-top: 5px;
   font-size: 20px;
   color: white;
+  bottom: 0;
+  position: relative;
   font-weight: bold;
-  width: 250px;
-  overflow: hidden;
+  width: 100%;
 }
 
 #portofolio .card-portofolio .hvr-bounce-to-top::before {
@@ -299,12 +309,10 @@
 
 #mitraKerja .row-putih {
   background-color: white;
-  height: 350px;
-  padding: 0 50px;
+  padding: 40px 50px;
 }
 
 #mitraKerja .row-putih img {
-  margin-top: 60px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
@@ -331,16 +339,18 @@
   font-size: 12px;
   color: #706e6e;
   text-align: left;
+  line-height: 1.5;
 }
 
 #mitraKerja .row-putih p {
-  margin-top: 60px;
   font-weight: 500;
-  font-size: 18px;
   color: #706e6e;
   text-align: left;
 }
 
+#mitraKerja .row-putih .col-putih-testi {
+  margin-top: 40px;
+}
 /* Produk */
 #produk {
   background-color: #f2f2f2;

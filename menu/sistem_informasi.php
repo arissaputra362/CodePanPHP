@@ -261,7 +261,7 @@
     <!-- Jumbotron Heading -->
     <div id="mt" class="centered jumbotron jumbotron-fluid"
         style="background-image: url('../img/sistem-informasi/Jumbotron SI.png');">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <h1 class="display-4">SISTEM INFORMASI</h1>
             <p class="lead text-center">
                 Platform sistem informasi terbaik untuk memudahkan bisnis Anda
@@ -276,12 +276,12 @@
     <!-- <section id="hadirDenganSolusi"> -->
     <section id="hadirDenganSolusi">
         <div class="container">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-md-5" id="judulSI" data-aos="fade-right">
                     <h1>Kami Hadir dengan Solusi Terbaik</h1>
                     <p>Kami hadir memberikan layanan dan solusi atas permasalahan Anda. Kami menawarkan layanan sistem
                         informasi yang kompetitif dan prima menggunakan metode yang handal dan terpercaya.</p>
-                    <p><a class="hvr-bounce-to-top" href="#">Dapatkan Konsultasi Gratis <i
+                    <p><a class="hvr-bounce-to-right" href="#">Dapatkan Konsultasi Gratis <i
                                 class="fas fa-long-arrow-alt-right hvr-icon-fade"></i></a></p>
                 </div>
 
@@ -322,8 +322,8 @@
             <!--Akhir Row-->
 
             <div class="row" id="row-card" data-aos="fade-down" data-aos-delay="200">
-                <div class="col-lg-3">
-                    <div class="card">
+                <div class="col-lg-3 col-md-6 mb-4 margin-rowCard">
+                    <div class="card h-100">
                         <!-- <img src="/img/Path.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="graf"
@@ -343,8 +343,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="card">
+                <div class="col-lg-3 col-md-6 mb-4 margin-rowCard">
+                    <div class="card h-100">
                         <!-- <img src="/img/smile.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="smile"
@@ -364,8 +364,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="card">
+                <div class="col-lg-3 col-md-6 mb-4 margin-rowCard">
+                    <div class="card h-100">
                         <!-- <img src="/img/Shape.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="phone"
@@ -385,8 +385,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="card">
+                <div class="col-lg-3 col-md-6 mb-4 margin-rowCard">
+                    <div class="card h-100">
                         <!-- <img src="/img/user.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="partner"
@@ -476,8 +476,8 @@
             </div>
             <!--Akhir Row1-->
             <div class="row" data-aos="fade-up" data-aos-offset="10" data-aos-delay="300">
-                <div class="col-md-4">
-                    <div class="card card-portofolio">
+                <div class="col-lg-4 col-md-6 porto-margin">
+                    <div class="card card-portofolio h-100">
                         <div class="card-img">
                             <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
@@ -493,8 +493,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-portofolio">
+                <div class="col-lg-4 col-md-6 porto-margin">
+                    <div class="card card-portofolio h-100">
                         <div class="card-img">
                             <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
@@ -510,8 +510,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-portofolio">
+                <div class="col-lg-4 col-md-6 porto-margin">
+                    <div class="card card-portofolio h-100">
                         <div class="card-img">
                             <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
@@ -547,8 +547,8 @@
                 </div>
             </div>
             <!--Akhir Row1-->
-            <div class="row row-putih">
-                <div class="col-md-6">
+            <div class="row row-putih d-flex justify-content-between">
+                <div class="col-md-6 margin-testi">
                     <div class="row row-putih-testi" data-aos="fade-right">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
@@ -556,7 +556,10 @@
                             </div>
                             <div class="info">
                                 <h2>Reza Arindra Fadillah</h2>
-                                <small>CEO & Project Manager <br>CV. Arindra Production</small>
+                                <small>
+                                    <p>CEO & Project Manager</p>
+                                    <p>CV. Arindra Production</p>
+                                </small>
                             </div>
                         </div>
                         <div class="col-lg-8">
@@ -567,7 +570,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 margin-testi">
                     <div class="row row-putih-testi" data-aos="fade-right" data-aos-delay="200">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
@@ -575,7 +578,10 @@
                             </div>
                             <div class="info">
                                 <h2>Andrea</h2>
-                                <small>CEO & Project Manager <br>CV. Arindra Production</small>
+                                <small>
+                                    <p>CEO & Project Manager</p>
+                                    <p>CV. Arindra Production</p>
+                                </small>
                             </div>
                         </div>
                         <div class="col-lg-8">

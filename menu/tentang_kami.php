@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+    <title>Tentang Kami</title>
 
     <!-- Font CSS From Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -280,11 +280,11 @@
         <section id="tentang1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6" data-aos="fade-right">
+                    <div class="col-md-7 col-sm-12 text-judul" data-aos="fade-right">
                         <h2>PILIHAN TERPERCAYA DALAM JASA SOFTWARE DAN LAYANAN IT</h2>
                         <a href="#" class="dwnld-btn hvr-bounce-to-top">DOWNLOAD PROFIL PERUSAHAAN</a>
                     </div>
-                    <div class="col-md-6" data-aos="fade-left">
+                    <div class="col-md-5 col-sm-12 margin" data-aos="fade-left">
                         <p>
                             Codepan Studio adalah perusahaan privat yang bergerak dibidang
                             Jasa Software dan Layanan IT yang didirikan pada tahun 2019.
@@ -303,8 +303,8 @@
         <section id="tentang2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-delay="200">
-                        <div class="card">
+                    <div class="col-md-6" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="card h-100">
                             <div class="card-body">
                                 <!-- <img src="/img/compass.png" alt="" /> -->
                                 <div class="pembungkus-img-tentang">
@@ -321,8 +321,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-delay="200">
-                        <div class="card">
+                    <div class="col-md-6 batas-card" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="card h-100">
                             <div class="card-body">
                                 <!-- <img src="/img/flag.png" alt="" /> -->
                                 <div class="pembungkus-img-tentang">
@@ -384,8 +384,8 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="form-group">
-                                        <iframe width="513" height="315" src="https://www.youtube.com/embed/pp4SSw_0uXA"
-                                            frameborder="0"
+                                        <iframe width="100%" height="100%"
+                                            src="https://www.youtube.com/embed/pp4SSw_0uXA" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
                                     </div>
@@ -579,10 +579,6 @@
     <!-- Pagination -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.4/jquery.simplePagination.min.js">
     </script>
-
-    <!-- Header Effect .js -->
-    <script src="./js/headerEffect/main.js"></script>
-    <script src="./js/headerEffect/modernizr.js"></script>
 
     <!-- Lottie Js -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.5.1/dist/lottie-player.js"></script>

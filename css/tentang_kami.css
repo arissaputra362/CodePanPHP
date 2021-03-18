@@ -1,36 +1,42 @@
 .atas {
-  margin-top: -50px;
   padding-bottom: 10px;
   background-color: #f2f2f2;
   overflow-x: hidden;
 }
 
+.atas p {
+  color: #7f7f7f;
+}
 /* Tentang1 */
+#tentang1 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 #tentang1 h2 {
-  font-size: 36px;
+  font-size: 1.8rem;
   color: #2926a9;
   font-family: "Gotham", sans-serif;
   letter-spacing: 0px;
 }
 
 #tentang1 p {
-  margin-top: 15px;
   text-align: justify;
-  font-size: 17px;
+  line-height: 1.5;
 }
 
 #tentang1 .dwnld-btn {
-  display: block;
+  font-weight: 500;
+  margin-top: 40px;
+  display: inline-block;
   text-decoration: none;
   color: white;
   border: none;
   background-color: #33bef0;
-  height: 50px;
-  width: 400px;
-  padding-top: 10px;
+  padding: 15px 40px;
   border-radius: 41.5px;
   text-align: center;
-  font-size: 17px;
+  font-size: 12px;
   overflow: hidden;
 }
 
@@ -43,13 +49,13 @@
   background-color: #2926a9;
 }
 
-#tentang1 .row {
-  padding-top: 100px;
-}
-
 /* Akhir Tentang1 */
 
 /* Awal Tentang2 */
+#tentang2 {
+  margin-bottom: 80px;
+}
+
 #tentang2 img {
   width: 40px;
   height: 40px;
@@ -63,15 +69,13 @@
 }
 
 #tentang2 .card {
-  margin: 50px 0;
   box-shadow: 2px 2px 20px rgba(100, 78, 78, 0.616);
-  height: 373px;
 }
 
 #tentang2 .card-body {
-  padding: 50px;
+  padding: 60px 50px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
 }
 
@@ -91,6 +95,7 @@
   overflow: hidden;
   height: 60px;
   width: 60px;
+  margin-bottom: 20px;
 }
 
 #tentang2 .pembungkus-img-tentang lottie-player.watch {
@@ -123,7 +128,6 @@
 #tentang3 h3 {
   font-weight: 600;
   font-size: 36px;
-  line-height: 44px;
   color: white;
 }
 
@@ -139,14 +143,13 @@
 #tentang3 p {
   font-weight: 100;
   font-size: 21px;
-  line-height: 26px;
   color: white;
 }
 
 #tentang3 a img {
   width: 60px;
   height: 60px;
-  margin: 40px 0;
+  margin-top: 40px;
 }
 
 #tentang3 a img:hover {
@@ -156,7 +159,16 @@
 }
 
 #tentang3 .modal .modal-content {
-  width: 600px;
+  width: 100%;
+  height: 350px;
+}
+
+#tentang3 .modal .form-group {
+  height: 100%;
+}
+
+#tentang3 .modal h5 {
+  color: #000;
 }
 
 /* Akhir Tentang3 */
