@@ -943,7 +943,7 @@
                                 </div>
 
                                 <!-- Agreement -->
-                                <div class="col-lg-7 box-setuju">
+                                <div class="col-lg-7 box-setuju d-flex justify-content-start">
                                     <input type="checkbox" id="setuju" name="setuju">
                                     <!-- Agreement Text -->
                                     <label for="setuju">Saya menyetujui bahwa data yang saya isi adalah benar</label>

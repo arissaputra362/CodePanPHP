@@ -165,3 +165,11 @@ $(".accordion_header").click(function () {
   $(".accordion_header").removeClass("active");
   $(this).addClass("active");
 });
+
+// stop video
+$("#video-close-button-id").click(function () {
+  $("#youtube-player-id").each(function () {
+    var el_src = $(this).attr("src");
+    $(this).attr("src", el_src);
+  });
+});

@@ -314,63 +314,68 @@
             </div>
             <div class="solusi">
                 <!-- Container Mitra -->
-                <div class="row container-mitra" data-aos="fade-up">
+                <div class="row container-mitra" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-md-5 text-center keterangan">
-                        <p class="sub-judul">SELANGKAH KAMI LEBIH DEKAT</p>
+                        <p class="sub-judul">Cara Kerja Kami</p>
                         <h2>DAPATKAN SOLUSINYA SEKARANG</h2>
-                        <p class="text-under-judul">Silakan hubungi kontak atau isi form yang telah tersedia.</p>
+                        <p class="text-under-judul">Silakan hubungi kontak atau isi form yang telah tersedia.
+                            Selanjutnya,
+                            tim kami akan menghubungi Anda secepatnya.</p>
 
                         <ul class="row items">
                             <li class="col-md-12 item">
-                                <div class="text-img">
-                                    <script
-                                        src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
-                                    </script>
-                                    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_q75ozg3t.json"
-                                        background="transparent" speed="1" loop autoplay>
-                                    </lottie-player>
-                                </div>
-                                <div class="text text-left">
-                                    <h3>Mari Berdiskusi</h3>
-                                    <p>Kami akan menghubungi dan
-                                        berdiskusi tentang bisnis Anda,
-                                        bagaimana Anda menggunakan teknologi, dan apa saja yang Anda butuhkan.</p>
-                                </div>
-                            </li>
-                            <li class="col-md-12 item">
-                                <div class="text-img">
-                                    <script
-                                        src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
-                                    </script>
-                                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_my6ldrkt.json"
-                                        background="transparent" speed="1" loop autoplay>
-                                    </lottie-player>
-                                </div>
-                                <div class="text text-left">
-                                    <h3>Pilih Layanan</h3>
-                                    <p>Anda bisa pilih paket layanan IT yang sesuai dengan kebutuhan perusahaan Anda.
-                                    </p>
+                                <div class="row">
+                                    <div class="col-3 pt-2">
+                                        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_q75ozg3t.json"
+                                            background="transparent" speed="1" style="width: 100%; height: auto;" loop
+                                            autoplay>
+                                        </lottie-player>
+                                    </div>
+                                    <div class="text text-left col-9">
+                                        <h3>Mari Berdiskusi</h3>
+                                        <p>Kami akan menghubungi dan
+                                            berdiskusi tentang bisnis Anda,
+                                            bagaimana Anda menggunakan teknologi, dan apa saja yang Anda butuhkan.</p>
+                                    </div>
                                 </div>
                             </li>
                             <li class="col-md-12 item">
-                                <div class="text-img">
-                                    <script
-                                        src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
-                                    </script>
-                                    <lottie-player class="target"
-                                        src="https://assets3.lottiefiles.com/packages/lf20_ich37shs.json"
-                                        background="transparent" speed="1" loop autoplay>
-                                    </lottie-player>
+                                <div class="row">
+                                    <div class="col-3 pt-2">
+                                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_my6ldrkt.json"
+                                            background="transparent" speed="1" style="width: 100%; height: auto;" loop
+                                            autoplay>
+                                        </lottie-player>
+                                    </div>
+                                    <div class="text text-left col-9">
+                                        <h3>Pilih Layanan</h3>
+                                        <p>Anda bisa pilih paket layanan IT yang sesuai dengan kebutuhan perusahaan
+                                            Anda.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="text text-left">
-                                    <h3>Mulai Pengerjaan</h3>
-                                    <p>Tim ahli kami akan mulai pengerjaan sesuai target dan kesepakatan bersama. Hingga
-                                        kemudian solusi jitu kami tersedia pada bisnis Anda.
-                                    </p>
+                            </li>
+                            <li class="col-md-12 item">
+                                <div class="row">
+                                    <div class="col-3 pt-4">
+                                        <lottie-player class="target"
+                                            src="https://assets3.lottiefiles.com/packages/lf20_ich37shs.json"
+                                            background="transparent" speed="1" style="width: 100%; height: auto;" loop
+                                            autoplay>
+                                        </lottie-player>
+                                    </div>
+                                    <div class="text text-left col-9">
+                                        <h3>Mulai Pengerjaan</h3>
+                                        <p>Tim ahli kami akan mulai pengerjaan sesuai target dan kesepakatan bersama.
+                                            Hingga
+                                            kemudian solusi jitu kami tersedia pada bisnis Anda.
+                                        </p>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
+
                     <div class="col-md-7 form">
                         <!-- Container Form -->
                         <div class="container-form">
@@ -486,7 +491,7 @@
                                     </div>
 
                                     <!-- Agreement -->
-                                    <div class="col-lg-7 box-setuju">
+                                    <div class="col-lg-7 box-setuju d-flex justify-content-start">
                                         <input type="checkbox" id="setuju" name="setuju">
                                         <!-- Agreement Text -->
                                         <label for="setuju">Saya menyetujui bahwa data yang saya isi adalah
@@ -506,12 +511,12 @@
                                             Loading...
                                         </button>
                                     </div>
-
                                 </div>
                             </form>
                         </div>
                         <!-- End of Container Form -->
                     </div>
+
                 </div>
                 <!-- End of Container Mitra -->
             </div>

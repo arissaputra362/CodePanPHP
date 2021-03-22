@@ -326,11 +326,8 @@
                     <div class="card h-100">
                         <!-- <img src="/img/Path.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <!-- <lottie-player class="graf"
-                                src="https://assets6.lottiefiles.com/packages/lf20_nl9bgfle.json"
-                                background="transparent" speed="1" loop autoplay>
-                            </lottie-player> -->
-                            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_nl9bgfle.json"
+                            <lottie-player class="graf"
+                                src="https://assets2.lottiefiles.com/packages/lf20_nl9bgfle.json"
                                 background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
                             </lottie-player>
                         </div>
@@ -350,11 +347,8 @@
                     <div class="card h-100">
                         <!-- <img src="/img/smile.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <!-- <lottie-player class="smile"
-                                src="https://assets1.lottiefiles.com/packages/lf20_qc9sajgo.json"
-                                background="transparent" speed="1" loop autoplay>
-                            </lottie-player> -->
-                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_qdbb21wb.json"
+                            <lottie-player class="smile"
+                                src="https://assets7.lottiefiles.com/packages/lf20_qdbb21wb.json"
                                 background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
                             </lottie-player>
                         </div>
@@ -375,11 +369,8 @@
                     <div class="card h-100">
                         <!-- <img src="/img/Shape.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <!-- <lottie-player class="phone"
-                                src="https://assets7.lottiefiles.com/packages/lf20_tlzxty4j.json"
-                                background="transparent" speed="1" loop autoplay>
-                            </lottie-player> -->
-                            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_tlzxty4j.json"
+                            <lottie-player class="phone"
+                                src="https://assets9.lottiefiles.com/packages/lf20_tlzxty4j.json"
                                 background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
                             </lottie-player>
                         </div>
@@ -399,14 +390,10 @@
                     <div class="card h-100">
                         <!-- <img src="/img/user.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-
-                            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_2wrjlrbz.json"
+                            <lottie-player class="partner"
+                                src="https://assets1.lottiefiles.com/packages/lf20_2wrjlrbz.json"
                                 background="transparent" speed="1" style="width: 100px; height: 100;" loop autoplay>
                             </lottie-player>
-                            <!-- <lottie-player class="partner"
-                                src="https://assets4.lottiefiles.com/packages/lf20_2wrjlrbz.json"
-                                background="transparent" speed="1" loop autoplay>
-                            </lottie-player> -->
                         </div>
                         <div class="card-body">
                             <div id="counter">
@@ -569,14 +556,11 @@
                                 <img src="../img/sistem-informasi/Reza Arindra.png" alt="">
                             </div>
                             <div class="info">
-                                <h2>Reza Arindra Fadillah</h2>
-                                <small>
-                                    <p>CEO & Project Manager</p>
-                                    <p>CV. Arindra Production</p>
-                                </small>
+                                <h5 class="nama-pelanggan">Reza Arindra Fadillah</h5>
+                                <p class="posisi">CEO & Project Manager CV. Arindra Production</p>
                             </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="mx-0 mt-1 col-lg-8">
                             <p>Terima kasih kepada Codepan Studio Surabaya, aplikasinya sangat membantu. Sudah kami
                                 gunakan seluruhnya. Lalu layanan dari Profio secara kesuluruhan juga sudah cukup baik
                                 mulai dari komunikasi, hasil, dan ketepatan dalam menyelesaikannya.</p>
@@ -591,14 +575,13 @@
                                 <img src="../img/sistem-informasi/Andrea.png" alt="">
                             </div>
                             <div class="info">
-                                <h2>Andrea</h2>
-                                <small>
-                                    <p>CEO & Project Manager</p>
-                                    <p>CV. Arindra Production</p>
-                                </small>
+                                <div class="info">
+                                    <h5 class="nama-pelanggan">Andrea Piacquadio</h5>
+                                    <p class="posisi">CEO & Project Manager PT. Angkasa Indah</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="mx-0 mt-1 col-lg-8">
                             <p>Layanan jasa dari Codepan Studio Surabaya baik, koordinasinya tanggap dan cepat,
                                 pelayanannya maksimal. Overall bagus.</p>
                         </div>
@@ -792,7 +775,7 @@
                                 </div>
 
                                 <!-- Agreement -->
-                                <div class="col-lg-7 box-setuju">
+                                <div class="col-lg-7 box-setuju d-flex justify-content-start">
                                     <input type="checkbox" id="setuju" name="setuju">
                                     <!-- Agreement Text -->
                                     <label for="setuju">Saya menyetujui bahwa data yang saya isi adalah benar</label>

@@ -261,7 +261,7 @@
     <!-- Jumbotron Heading -->
     <div id="mt" class="centered jumbotron jumbotron-fluid"
         style="background-image: url('../img/aplikasi-mobile/JumbotronMobile.png');">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <h1 class="display-4">Aplikasi Mobile</h1>
             <p class="lead text-center">
                 Jasa pembuatan aplikasi kami membantu anda mewujudkan kedekatan
@@ -277,14 +277,14 @@
     <!-- <section id="hadirDenganSolusi"> -->
     <section id="hadirDenganSolusi">
         <div class="container">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-md-5" id="judulSI" data-aos="fade-right">
                     <h1>Kami Hadir dengan Solusi Terbaik</h1>
                     <p>Jasa pembuatan aplikasi mobile ini kami hadirkan untuk memberikan layanan dan solusi bagi Anda.
                         Kami menawarkan layanan aplikasi mobile yang kompetitif dan prima menggunakan metode yang handal
                         dan terpercaya.</p>
                     <p><a class="hvr-bounce-to-right" href="#">Dapatkan Konsultasi Gratis <i
-                                class="fas fa-long-arrow-alt-right"></i></a></p>
+                                class="fas fa-long-arrow-alt-right hvr-icon-fade"></i></a></p>
                 </div>
 
                 <div class="col-md-7" id="bullets" data-aos="fade-left">
@@ -328,8 +328,8 @@
                         <!-- <img src="/img/Path.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="graf"
-                                src="https://assets6.lottiefiles.com/packages/lf20_nl9bgfle.json"
-                                background="transparent" speed="1" loop autoplay>
+                                src="https://assets2.lottiefiles.com/packages/lf20_nl9bgfle.json"
+                                background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">
@@ -349,10 +349,11 @@
                         <!-- <img src="/img/smile.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="smile"
-                                src="https://assets1.lottiefiles.com/packages/lf20_qc9sajgo.json"
-                                background="transparent" speed="1" loop autoplay>
+                                src="https://assets7.lottiefiles.com/packages/lf20_qdbb21wb.json"
+                                background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
                             </lottie-player>
                         </div>
+
                         <div class="card-body">
                             <div id="counter">
                                 <div class="pembungkus-counter d-flex justify-content-center align-items-center">
@@ -370,8 +371,8 @@
                         <!-- <img src="/img/Shape.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="phone"
-                                src="https://assets7.lottiefiles.com/packages/lf20_tlzxty4j.json"
-                                background="transparent" speed="1" loop autoplay>
+                                src="https://assets9.lottiefiles.com/packages/lf20_tlzxty4j.json"
+                                background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">
@@ -391,8 +392,8 @@
                         <!-- <img src="/img/user.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
                             <lottie-player class="partner"
-                                src="https://assets4.lottiefiles.com/packages/lf20_2wrjlrbz.json"
-                                background="transparent" speed="1" loop autoplay>
+                                src="https://assets1.lottiefiles.com/packages/lf20_2wrjlrbz.json"
+                                background="transparent" speed="1" style="width: 100px; height: 100;" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">
@@ -478,8 +479,8 @@
             </div>
             <!--Akhir Row1-->
             <div class="row" data-aos="fade-up" data-aos-offset="10" data-aos-delay="300">
-                <div class="col-md-4">
-                    <div class="card card-portofolio">
+                <div class="col-lg-4 col-md-6 porto-margin">
+                    <div class="card card-portofolio h-100">
                         <div class="card-img">
                             <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
@@ -495,8 +496,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-portofolio">
+                <div class="col-lg-4 col-md-6 porto-margin">
+                    <div class="card card-portofolio h-100">
                         <div class="card-img">
                             <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
@@ -512,8 +513,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-portofolio">
+                <div class="col-lg-4 col-md-6 porto-margin">
+                    <div class="card card-portofolio h-100">
                         <div class="card-img">
                             <img src="../img/sistem-informasi/card4.jpg" class="card-img-top hvr-grow" alt="...">
                         </div>
@@ -547,19 +548,19 @@
                 </div>
             </div>
             <!--Akhir Row1-->
-            <div class="row row-putih">
-                <div class="col-md-6">
+            <div class="row row-putih d-flex justify-content-between">
+                <div class="col-md-6 margin-testi">
                     <div class="row row-putih-testi" data-aos="fade-right">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
                                 <img src="../img/sistem-informasi/Reza Arindra.png" alt="">
                             </div>
                             <div class="info">
-                                <h2>Reza Arindra Fadillah</h2>
-                                <small>CEO & Project Manager <br>CV. Arindra Production</small>
+                                <h5 class="nama-pelanggan">Reza Arindra Fadillah</h5>
+                                <p class="posisi">CEO & Project Manager CV. Arindra Production</p>
                             </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="mx-0 mt-1 col-lg-8">
                             <p>Terima kasih kepada Codepan Studio Surabaya, aplikasinya sangat membantu. Sudah kami
                                 gunakan seluruhnya. Lalu layanan dari Profio secara kesuluruhan juga sudah cukup baik
                                 mulai dari komunikasi, hasil, dan ketepatan dalam menyelesaikannya.</p>
@@ -567,18 +568,20 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 margin-testi">
                     <div class="row row-putih-testi" data-aos="fade-right" data-aos-delay="200">
                         <div class="col-lg-4 col-putih-testi">
                             <div class="img-testi">
                                 <img src="../img/sistem-informasi/Andrea.png" alt="">
                             </div>
                             <div class="info">
-                                <h2>Andrea</h2>
-                                <small>CEO & Project Manager <br>CV. Arindra Production</small>
+                                <div class="info">
+                                    <h5 class="nama-pelanggan">Andrea Piacquadio</h5>
+                                    <p class="posisi">CEO & Project Manager PT. Angkasa Indah</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="mx-0 mt-1 col-lg-8">
                             <p>Layanan jasa dari Codepan Studio Surabaya baik, koordinasinya tanggap dan cepat,
                                 pelayanannya maksimal. Overall bagus.</p>
                         </div>
@@ -769,7 +772,7 @@
                                 </div>
 
                                 <!-- Agreement -->
-                                <div class="col-lg-7 box-setuju">
+                                <div class="col-lg-7 box-setuju d-flex justify-content-start">
                                     <input type="checkbox" id="setuju" name="setuju">
                                     <!-- Agreement Text -->
                                     <label for="setuju">Saya menyetujui bahwa data yang saya isi adalah benar</label>
@@ -898,79 +901,32 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <<<<<<< Updated upstream=======<<<<<<< HEAD <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        =======
-        >>>>>>> Stashed changes
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        >>> >>> > f8d9eb0907d7099edbcae020d21679df6fde79f5
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-        </script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
 
-        <!-- Header Effect .js -->
-        <script src="../js/headerEffect/main.js"></script>
-        <script src="../js/headerEffect/modernizr.js"></script>
+    <!-- Header Effect .js -->
+    <script src="../js/headerEffect/main.js"></script>
+    <script src="../js/headerEffect/modernizr.js"></script>
 
-        <!-- Animate on Scroll .js -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Animate on Scroll .js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-        <!-- Pagination -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.4/jquery.simplePagination.min.js">
-        </script>
+    <!-- Pagination -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.4/jquery.simplePagination.min.js">
+    </script>
 
-        <!-- Lottie Js -->
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@0.5.1/dist/lottie-player.js"></script>
+    <!-- Lottie Js -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.5.1/dist/lottie-player.js"></script>
 
-        <!-- Costum Main.js -->
-        <script type="text/javascript" src="../js/main.js"></script>
-
-        <!-- <script>
-    topNavBar();
-    scrollCalculate();
-    $(function() {
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-        // window.addEventListener("load", AOS.refresh);
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-    });
-
-    function onElementHeightChange(elm, callback) {
-        var lastHeight = elm.clientHeight
-        var newHeight;
-
-        (function run() {
-            newHeight = elm.clientHeight;
-            if (lastHeight !== newHeight) callback();
-            lastHeight = newHeight;
-
-            if (elm.onElementHeightChangeTimer) {
-                clearTimeout(elm.onElementHeightChangeTimer);
-            }
-
-            elm.onElementHeightChangeTimer = setTimeout(run, 200);
-        })();
-    }
-
-    function refreshAos() {
-        onElementHeightChange(document.body, function() {
-            AOS.refresh();
-        });
-        AOS.init({
-            duration: 600,
-            anchorPlacement: 'top-top',
-            once: false,
-        });
-    }
-    </script> -->
+    <!-- Costum Main.js -->
+    <script type="text/javascript" src="../js/main.js"></script>
 </body>
 
 </html>

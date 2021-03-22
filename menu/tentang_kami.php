@@ -379,12 +379,12 @@
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLabel">Video</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
+                                        <span id="video-close-button-id" aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="form-group">
-                                        <iframe width="100%" height="100%"
+                                        <iframe id="youtube-player-id" width="100%" height="100%"
                                             src="https://www.youtube.com/embed/pp4SSw_0uXA" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
