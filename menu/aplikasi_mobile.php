@@ -272,8 +272,6 @@
     </div>
     <!-- Akhir JumboTron -->
 
-
-
     <!-- <section id="hadirDenganSolusi"> -->
     <section id="hadirDenganSolusi">
         <div class="container">
@@ -464,7 +462,6 @@
         <!--Akhir Container 2-->
         <br><br>
     </section>
-
 
     <section id="portofolio">
         <div class="container">

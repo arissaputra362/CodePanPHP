@@ -272,8 +272,6 @@
     </div>
     <!-- Akhir JumboTron -->
 
-
-
     <!-- <section id="hadirDenganSolusi"> -->
     <section id="hadirDenganSolusi">
         <div class="container">
@@ -464,7 +462,6 @@
         <br><br>
     </section>
 
-
     <section id="portofolio">
         <div class="container">
             <div class="row">
@@ -535,8 +532,6 @@
         <!--Akhir Container Portfolio-->
     </section>
 
-
-
     <section id="mitraKerja">
         <div class="container">
             <div class="row row-biru">
@@ -594,7 +589,6 @@
         </div>
         <!--Akhir Container-->
     </section>
-
 
     <!-- Form Solusi -->
     <div class="solusi">
