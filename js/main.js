@@ -173,3 +173,11 @@ $("#video-close-button-id").click(function () {
     $(this).attr("src", el_src);
   });
 });
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById("phone"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "phone-ring.json",
+});

@@ -34,6 +34,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/dropdown_item.css">
     <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- Lottie Js -->
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.5.1/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -367,9 +371,12 @@
                     <div class="card h-100">
                         <!-- <img src="/img/Shape.png" class="card-img-top" alt="..."> -->
                         <div class="card-img-rowCard">
-                            <lottie-player class="phone"
-                                src="https://assets9.lottiefiles.com/packages/lf20_tlzxty4j.json"
-                                background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
+                            <!-- <div class="d-flex justify-content-center">
+                                <img src="../img/sistem-informasi/phone-ring.gif" class="phone"
+                                    style="width:140px;height:140px; display:inline-block; margin: 0 auto;" alt="">
+                            </div> -->
+                            <lottie-player class="phone" src="../js/phone-ring.json" background="transparent" speed="1"
+                                style="width: 100px; height: 100px;" loop autoplay>
                             </lottie-player>
                         </div>
                         <div class="card-body">
@@ -917,9 +924,6 @@
     <!-- Pagination -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.4/jquery.simplePagination.min.js">
     </script>
-
-    <!-- Lottie Js -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.5.1/dist/lottie-player.js"></script>
 
     <!-- Costum Main.js -->
     <script type="text/javascript" src="../js/main.js"></script>
